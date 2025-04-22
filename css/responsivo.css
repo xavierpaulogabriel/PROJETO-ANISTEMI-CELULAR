@@ -1,9 +1,9 @@
-/* Responsivo para telas menores que 768px */
-@media (max-width: 1000px) {
+@media (max-width: 480px) {
     /* Esconde o menu */
 
     .navbar{
         position: static;
+        margin-bottom: 5%;
     }
 
     .background-principal{
@@ -28,7 +28,6 @@
 
     .texto-principal h2{
         font-size: 30px;
-        margin: 0;
         text-align: center;
     }
 
@@ -37,23 +36,27 @@
         margin: 0;
         font-size: 17px;
         text-align: center;
+        margin-top: 2%;
+        margin-bottom: 3%;
     }
 
     .texto-principal a{
-        margin-left: 32%;
+        margin: 0;
+        display: inline-block;
+        margin-left: 30%;
+        margin-bottom: 5%;
     }
+    
 
     .vid-principal{
         margin: 0;
         padding: 0;
+        text-align: center;
     }
 
     .vid-principal iframe{
-        margin-top: 8%;
         max-width: 365px;    
         height: 205px;
-        margin-left: 2.5%;
-        margin-right: 1%;
     }
 
     .texto-secundario h3{
@@ -68,14 +71,15 @@
     }
 
     .texto-secundario p{
-        font-size: 15px;
+        font-size: 16px;
         text-align: center;
     }
 
     .container-cards{
         flex-direction: column;
         align-items: center;
-        margin-top: 10px;
+        margin-top: -80px;
+
     }
 
     .conteudo-saibamais{
@@ -83,38 +87,48 @@
     }
 
     .conteudo-saibamais h3{
-        font-size: 18.5px;
+        font-size: 19px;
+        text-align: center;
     }
 
     .conteudo-saibamais p{
         font-size: 16px;
         text-align: center;
-        margin-right: 3px;
-        margin-left: 3px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    .video-saibamais{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-top: 3%;
     }
 
     .video-saibamais iframe{
-        margin-top: 2%;
         max-width: 365px;    
         height: 205px;
-        margin-left: 1%;
-        margin-right: 1%
+        margin: 0;
+        padding: 0;
     }
 
    .conteudo-testemunho{
-        margin: 1%;
+        margin: 0;
+        padding: 0;
    }
+
+   .video-testemunho {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 3%;
+    }
 
    .video-testemunho iframe{
-        margin-top: 2%;
         max-width: 365px;    
         height: 205px;
-        margin-left: 1%;
-        margin-right: 1%
-   }
-
-   .botao-vejamaisavaliacoes{
-        margin-left: 13%;
+        margin: 0;
+        padding: 0;
    }
 
    .container-cards-depoimentos{
@@ -125,6 +139,15 @@
     .cards-depoimentos{
         width: 350px;
         height: 330px;
+    }
+
+    .depoimentos p{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .botao-vejamaisavaliacoes{
+        display: none;
     }
 
 
