@@ -1,3 +1,4 @@
+/* Responsivo para telas menores que 768px */
 @media (max-width: 480px) {
     /* Esconde o menu */
 
@@ -20,6 +21,7 @@
 
     .container{
         margin: 0;
+        text-align: center;
     }
 
     .texto-principal{
@@ -42,8 +44,6 @@
 
     .texto-principal a{
         margin: 0;
-        display: inline-block;
-        margin-left: 30%;
         margin-bottom: 5%;
     }
     
@@ -78,7 +78,7 @@
     .container-cards{
         flex-direction: column;
         align-items: center;
-        margin-top: -80px;
+        margin-top: -25px;
 
     }
 
@@ -148,6 +148,12 @@
 
     .botao-vejamaisavaliacoes{
         display: none;
+    }
+
+    .container-formulario a{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
     }
 
 
